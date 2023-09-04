@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.menu{
+    flex: 30%;
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+}
+.container{
+    flex: 70%;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.elements{
+    background-color: rgb(105, 105, 105);
+    display: flex;
+}
+.grid_element{
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    margin: 5px;
+
+}
+/* the menu Elments  */
+.clear_btn ,.resize_btn{
+    width: fit-content;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #cfcfcf;
+    border-radius: 10px;
+}
+
+
+.resize{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resize_title{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.change_color_title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.color_value{
+    margin-top: 10px;
+}
+
+
+
+.random_color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.random_color_title{
+    font-size: 1.2em;
+    font-weight: bold;
+    border:2px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
